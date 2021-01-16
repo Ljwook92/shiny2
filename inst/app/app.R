@@ -9,7 +9,7 @@
 # Load packages
 #==========================================================================
 
-sapply(c('dplyr','shiny','shinydashboard','ggplot2', 'shinycssloaders', 'DT'), require, character.only = T)
+sapply(c('dplyr','shiny','shinydashboard','ggplot2', 'shinycssloaders', 'unbalanced', 'DMwR','magrittr', 'DT', "skimr", "summarytools"), require, character.only = T)
 
 
 #==========================================================================
